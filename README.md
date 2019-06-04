@@ -9,7 +9,7 @@ This is a touch keyboard that can be used as an input device to enter Numbers fr
 ***
 Usage:
 ==========  
-Download all the source files. There are seven examples for user to use.
+Download all the source files. There are two examples for user to use.
 >1. The example uses serial output.
 >2. If you own an OLED, you can connect it to work with it.Open examples/Grove_xxx_OLED in arduino IDE. Compile and download and run it on a arduino board.
 
