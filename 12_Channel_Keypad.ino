@@ -27,7 +27,7 @@
  * THE SOFTWARE.
  */
 
-// Modified by Gustavo <lunaryx.org@gmail.com>
+// Modified by Gustavo <lunaryx.org@gmail.com> 7 october 2025
 // Added a delay to fix input timing
 // The loop was too fast and couldn't print the data
 #include "SoftwareSerial.h"
