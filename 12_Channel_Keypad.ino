@@ -26,6 +26,10 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+
+// Modified by Gustavo <lunaryx.org@gmail.com>
+// Added a delay to fix input timing
+// The loop was too fast and couldn't print the data
 #include "SoftwareSerial.h"
 
 #if defined(ARDUINO_ARCH_AVR)
@@ -101,7 +105,7 @@ void printData() {
                     break;
             }
     }
-
+  delay(10); // Fixed timing
 }
 
 
